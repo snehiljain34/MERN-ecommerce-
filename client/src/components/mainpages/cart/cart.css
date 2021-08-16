@@ -5,6 +5,15 @@
     border-radius: 5px;
 }
 
+h3 {
+    text-align: center;
+}
+
+h3 img {
+    height: 1rem;
+    margin-right: 3px;
+}
+
 .amount span {
     color: crimson;
     padding: 0 20px;

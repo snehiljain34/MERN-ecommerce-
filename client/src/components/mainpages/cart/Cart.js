@@ -2,6 +2,7 @@ import React, {useContext, useState, useEffect} from 'react'
 import {GlobalState} from '../../../GlobalState'
 import axios from 'axios'
 import PaypalButton from './PaypalButton'
+import Cartimg from './cart.svg'
 
 function Cart() {
     const state = useContext(GlobalState)
@@ -82,6 +83,7 @@ function Cart() {
 
     return (
         <div>
+            <h3><img src={Cartimg} />Your cart</h3>
             {
                 cart.map(product => (
                     <div className="detail cart" key={product._id}>
