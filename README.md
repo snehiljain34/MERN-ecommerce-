@@ -1,10 +1,8 @@
 # MERN Stack - Ecommerce
 > Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
 
-## Demo: https://devat-ecommerce.herokuapp.com/
+## Demo: http://ecommerce-basic34.herokuapp.com/
 
-## Author: Dev AT
-## Youtube tutorials: https://youtu.be/AjItjNc0bHA
 
 ## Install dependencies for server 
 ### `npm install`
